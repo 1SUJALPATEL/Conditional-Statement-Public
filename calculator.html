@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log("+ for Plus");
+        console.log("- for Mines");
+        console.log("* for Multi");
+        console.log("/ for Divison")
+
+        let a = parseInt(prompt("Enter Any Number"))
+        console.log("This Is Your First Entered Number =", a);
+
+        let b = parseInt(prompt("Enter Any Number"))
+        console.log("This Is Your Secound Entered Number =", b);
+
+        let choice = parseInt(prompt("Hear Is + || - || * || / Are Avilable"))
+        // console.log("Your Choice", choice);
+
+
+        // switch (choice) {
+        //     case "+":
+        //         console.log("It's Your Ans =",a + b);
+        //         break;
+        //     case "-":
+        //         console.log("It's Your Ans.",a - b);
+        //         break;
+        //     case "*":
+        //         console.log("It's Your Ans.",a * b);
+        //         break;
+        //     case "/":
+        //         console.log("It's Your Ans.",a / b);
+        //         break;
+        //     // default:
+        //     //     console.log("Invalid Number");
+        //     //     break;
+
+        switch (choice) {
+
+            case "+":
+                console.log("Addition = ", a + b);
+                break;
+            case "-":
+                console.log("Sabstraction = ", a - b);
+                break;
+            case "/":
+                console.log("Division = ", a / b);
+                break;
+            case "*":
+                console.log("Multiplication = ", a * b);
+                break;
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let one_side = parseInt(prompt("Enter First Size"))
+            console.log("Angle first = ", one_side);
+
+            let secound_side = parseInt(prompt("Enter Secound  Size"))
+            console.log("Angle secound = ", secound_side);
+
+            let third_side = parseInt(prompt("Enter Third Side"))
+            console.log("Angle third = ", third_side);
+
+
+            let triangle = one_side + secound_side + third_side
+            console.log("Sum Of All Angles = ",triangle);
+
+            if (triangle === 180 && one_side != 0 && secound_side != 0 && third_side != 0) {
+                console.log("Triangle Is valid");
+            }
+            else {
+                console.log("Triangle Is Not valid");
+            }
+    </script>
+</body>
+</html>
